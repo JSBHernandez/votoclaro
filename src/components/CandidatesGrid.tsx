@@ -9,37 +9,37 @@ const CANDIDATES = [
 },
   {
     name: "Iván Cepeda y Aída Quilcué",
-    party: "Izquierda",
+    party: "Pacto Histórico",
     description: "El senador Iván Cepeda compite acompañado por la lideresa indígena Aída Quilcué. Cepeda ha construido su carrera política alrededor de la defensa de los derechos humanos y el proceso de paz, y Quilcué le da a la fórmula una fuerte representación de organizaciones sociales y pueblos originarios.",
     imageUrl: "https://www.infobae.com/resizer/v2/EL5OIHLKMBCGDNAVFQXY6OD2R4.png?auth=d47cdc3dc3a8efbd6bd02f000fe83ff2486ef647ee7137979280ece0bada1786&smart=true&width=992&height=558&quality=85"
 },
   {
     name: "Claudia López y Leonardo Huerta",
-    party: "Centro Político",
+    party: "Movimiento Imparables",
     description: "La exalcaldesa de Bogotá, Claudia López, busca consolidarse en el centro político junto al académico Leonardo Huerta. La campaña plantea una agenda enfocada en transparencia institucional, lucha contra la corrupción y fortalecimiento de las instituciones democráticas.",
     imageUrl: "https://imagenes.elpais.com/resizer/v2/Q6ATNQH3MVB6NPPI5FHJKHRANY.jpg?auth=60d789201c6a09239ae02103d2f570843bda04c3218018971e0d90fe5d40f89d&width=1200"
 },
   {
     name: "Clara López y María Consuelo del Río",
-    party: "Izquierda Democrática",
+    party: "Esperanza democrática",
     description: "La economista Clara López participa con una candidatura en la izquierda democrática junto a María Consuelo del Río. La candidatura busca destacar la importancia de la transparencia y la justicia social en la administración del Estado.",
     imageUrl: "https://90minutos.co/wp-content/uploads/2026/03/Clara-Lopez-confirma-formula-presidencial-2.jpg"
 },
   {
     name: "Abelardo de la Espriella y José M. Restrepo",
-    party: "Derecha",
+    party: "Defensores de la Patria",
     description: "El abogado Abelardo de la Espriella aspira a la Presidencia acompañado por el economista José Manuel Restrepo. La dupla busca posicionar una agenda enfocada en crecimiento económico, fortalecimiento empresarial, estabilidad fiscal y promoción de la inversión.",
     imageUrl: "https://www.infobae.com/resizer/v2/P77ZJUTBOVD75KLMX6IAZOJ7QE.jpeg?auth=9ab3b9f233ad7dee7dbfd669890b56553929386099649705dc720ad75f307b9f&smart=true&width=992&height=827&quality=85"
 },
   {
     name: "Mauricio Lizcano y Pedro de La Torre",
-    party: "Independiente",
+    party: "Coalición F.A.M.I.L.I.A / ASI",
     description: "El exministro Mauricio Lizcano confirmó como fórmula vicepresidencial a Pedro de la Torre luego de que Luis Carlos Reyes se bajó de la campaña. La dupla busca proyectar una imagen técnica y reformista, con énfasis en modernización institucional y fortalecimiento de las finanzas públicas.",
     imageUrl: "https://www.infobae.com/resizer/v2/PKSQHFOO25EGBFPOANK2XORS24.png?auth=e64087699eadfbf064659ac0aa682b55fef72944f6097d3cfb58f7595bde3977&smart=true&width=992&height=558&quality=85"
 },
   {
     name: "Miguel Uribe y Luisa Fernanda Villegas",
-    party: "Centro Democrático",
+    party: "Partido Demócrata",
     description: "Miguel Uribe Londoño participa en la contienda presidencial acompañado por Luisa Fernanda Villegas. Su campaña se enfoca en temas como seguridad, crecimiento económico y fortalecimiento institucional, buscando ampliar su alcance en distintos sectores del electorado.",
     imageUrl: "https://imagenes2.eltiempo.com/files/image_600_455/files/fp/uploads/2026/03/25/69c437559cdb8.r_d.649-241-7218.jpeg"
 },
@@ -51,37 +51,37 @@ const CANDIDATES = [
 },
   {
     name: "Sondra Macollins y Leonardo Karam",
-    party: "Independiente",
+    party: "Firmas (Abogada de Hierro)",
     description: "La abogada Sondra Macollins es acompañada por el empresario Leonardo Karam. La dupla busca proyectar una imagen de cambio frente a los partidos tradicionales y atraer votantes inconformes con el establecimiento político, promoviendo la renovación institucional.",
     imageUrl: "https://caracol.com.co/resizer/v2/ROZMFINDL5ELXFHEKXTDUMLS6I.jpeg?auth=cc1be59415d209d1d93b09cbee4d8a822b22ff71ce04cb4f7a262dadcd7a2ce0&quality=70&width=990&height=556&smart=true"
 },
   {
     name: "Luis Murillo y Luz María Zapata",
-    party: "Centro Esperanza",
+    party: "Movimiento por firmas",
     description: "El exministro Luis Gilberto Murillo se presenta con Luz María Zapata. La fórmula busca posicionar un proyecto enfocado en el desarrollo sostenible, equidad territorial y un fuerte fortalecimiento gubernamental de las distintas regiones del país.",
     imageUrl: "https://imagenes2.eltiempo.com/files/image_1200_535/files/fp/uploads/2026/03/23/69c17d374f834.r_d.488-556-9002.jpeg"
 },
   {
     name: "Sergio Fajardo y Edna Bonilla",
-    party: "Compromiso Ciudadano",
+    party: "Dignidad y Compromiso",
     description: "El exgobernador Sergio Fajardo consolida su candidatura de centro con Edna Bonilla. Plantean una agenda enfocada en mejorar el sistema educativo, reducir desigualdades sociales y fortalecer de forma general la institucionalidad democrática nacional.",
     imageUrl: "https://www.elespectador.com/resizer/v2/37G33YXTAZCYJJN4WSWCNM3PYA.png?auth=071b2c6de04199faad4f8b402be0943bdc306e908398f9ca7bb3e99cf6084979&width=920&height=613&smart=true&quality=60"
 },
   {
     name: "Carlos Caicedo y Nelson Javier Alarcón",
-    party: "Fuerza Ciudadana",
+    party: "Partido Caicedo",
     description: "El exgobernador Carlos Caicedo compite con Nelson Javier Alarcón. La dupla busca posicionar una agenda de cambio desde las regiones, priorizando la inversión social, autonomía territorial y el fortalecimiento de la educación pública como eje nacional.",
     imageUrl: "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ZytIH.img?w=768&h=542&m=6&x=691&y=226&s=279&d=279"
 },
   {
     name: "Santiago Botero y Carlos Fernando Cuevas",
-    party: "Derecha Independiente",
+    party: "Romper el Sistema",
     description: "El empresario Santiago Botero compite con Carlos Fernando Cuevas. La campaña centra su propuesta en la reducción drástica del gasto público, seguridad jurídica para la inversión y una reforma a las instituciones de justicia para combatir la criminalidad.",
     imageUrl: "https://www.kienyke.com/sites/default/files/styles/interna_contenido_xl_l_m/public/2024-10/santiago-botero.webp?itok=_x4KKMct"
 },
   {
     name: "Gustavo Matamoros y Robinson Alonso",
-    party: "Alianza Cívica",
+    party: "Partido Ecologista / Militar",
     description: "El General (r) Gustavo Matamoros se asocia con el líder ecologista Robinson Alonso Giraldo. Buscan atraer a un electorado que prioriza la autoridad y el orden bajo un marco de sostenibilidad y protección de los recursos naturales frente a las economías ilícitas.",
     imageUrl: "https://www.elespectador.com/resizer/v2/XFK24P7COVFNNLHPVXWFERX4UM.jpg?auth=6d39ff5ce71e1de2cdc31015ed680d198928c0492a731afc40f4aead7122162a&width=920&height=613&smart=true&quality=60"
 }
